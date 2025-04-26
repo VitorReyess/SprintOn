@@ -1,0 +1,285 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.icon-tres-pontos {
+    width: 32px;
+    height: 32px;
+}
+
+.logo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vinheria {
+    font-size: 16px;
+    font-family: 'Crimson Text', serif;
+    color: #000;
+}
+
+.agnello {
+    font-size: 24px;
+    font-family: 'Crimson Text', serif;
+    color: #000;
+}
+
+.barra-pesquisa {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    background-color: #eeeae3;
+    border: 1px solid #eeeae3;
+    border-radius: 20px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 15px;
+}
+
+.barra-pesquisa input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.icon-lupa {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.usuario-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-usuario {
+    width: 32px;
+    height: 32px;
+}
+
+.link-usuario {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.link-usuario:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
+.user-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-icons img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.kits {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.kit-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.kit {
+    text-align: center;
+    background-color: #eeeae3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 350px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-box {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.description {
+    text-align: left;
+    width: 100%;
+}
+
+.description h2 {
+    font-size: 1.5em;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.description ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+    color: #333;
+}
+
+.description ul li {
+    margin-bottom: 5px;
+}
+
+.price-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #000;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icons img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #eeeae3;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.company-name {
+    flex: 1;
+    text-align: left;
+}
+
+.company-name h1 {
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Crimson Text', serif;
+    color: #000;
+}
+
+.links-uteis, .atendimento-cliente, .contato {
+    flex: 1;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.footer-container h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.footer-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-container ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer-container ul li img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.footer-container ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-container ul li a:hover {
+    text-decoration: underline;
+}
+
+.ver-mais-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ver-mais {
+    background-color: #eeeae3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.ver-mais:hover {
+    background-color: #A0522D;
+}
